@@ -1,0 +1,15 @@
+name: WarPvP
+main: me.georgem.warpvp.Main
+version: 1.0
+description: Hide From The Beast MiniGame made by Predator121.
+commands:
+    warpvp:
+        usage: /warpvp <option>
+        description: WarPvP game commands
+permissions:
+    warpvp.play:
+        description: Grants access to /warpvp join|leave
+        default: op
+    warpvp.manage:
+        description: Grants access to /warpvp start|stop|setspawn
+        default: op
